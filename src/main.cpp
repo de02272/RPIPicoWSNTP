@@ -104,7 +104,7 @@ void main_task(void *params){
 	printf("Main task started\n");
 
 	BlinkAgent blink(PULSE_LED);
-	blink.start("Blink", TASK_PRIORITY);
+	blink.start("Bl ink", TASK_PRIORITY);
 
 	if (WifiHelper::init()){
 		printf("Wifi Controller Initialised\n");
